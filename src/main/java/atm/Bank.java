@@ -30,8 +30,8 @@ public class Bank {
    public void addCustomer(Customer c) {
       customers.put(c.getCustomerNumber(), c);
    }
-   
-   /** 
+
+   /**
     * Finds a customer in the bank.
     * @param number a customer number
     * @return the matching customer, or null if no customer

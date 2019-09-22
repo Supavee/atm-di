@@ -9,7 +9,8 @@ public class ATMjavaconfig {
     public DataSource dataSource() {
         return new DataSource("customers.txt");
     }
-    @Bean Bank bank() {
+    @Bean
+    public Bank bank() {
         return new Bank(dataSource());
     }
     @Bean
